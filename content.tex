@@ -13,7 +13,7 @@ The following is a high-level design of how the Pixel Zone looks and how it work
     \caption*{Logical Topology of Pixel Zone}
 \end{figure}
 
-On the left side of the diagram, the default VRF routing is where all the non-Pixel services live. The VRF-PIXEL operates as a completely isolated routing domain. This separation ensures all the components and subsystems interacting with pixel data are logically and securely segmented from the resd of the observatory network. The use of a dedicated VRF enhances both security and compliance by limiting access and enforcing strict boundaries around sensitive data flows.
+On the left side of the diagram, the default VRF routing is where all the non-Pixel services live. The VRF-PIXEL operates as a completely isolated routing domain. This separation ensures all the components and subsystems interacting with pixel data are logically and securely segmented from the rest of the observatory network. The use of a dedicated VRF enhances both security and compliance by limiting access and enforcing strict boundaries around sensitive data flows.
 
 Spine 1 and Spine 2 refer to the same physical devices located on both sides of the firewall; however, they are configured in two separate VRFs
 
